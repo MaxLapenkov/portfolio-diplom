@@ -1,0 +1,21 @@
+@import './consts/variables.scss';
+@import './utils/normalize.scss';
+
+body {
+  color: $main-text;
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root,
+.App {
+  min-height: 100vh;
+}
+
+.App {
+  position: relative;
+}

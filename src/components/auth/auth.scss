@@ -1,0 +1,55 @@
+@import '../../consts/variables.scss';
+
+.auth {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(173.32deg, #DCEEF9 -2.66%, rgba(184, 226, 239, 0.993894) 12.25%, rgba(189, 231, 170, 0.611458) 36.63%, rgba(201, 255, 159, 0.307401) 60.34%, rgba(199, 235, 255, 0) 127.4%);
+    border-radius: 50px;
+
+    &__title {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__input {
+        border: 2px solid $main-text;
+        outline: none;
+    }
+
+    &__item {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &--error {
+            .auth__input {
+                border-color: red;
+            }
+        }
+    }
+
+    &__button {
+        width: 200px;
+        margin-top: 40px;
+        background-color: $main-background;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 10px 5px;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: $main-background-lite;
+        }
+    }
+}
