@@ -1,8 +1,8 @@
 import React from 'react'
-import { ToastContainer, ToastContainerProps } from 'react-toastify';
+import { ToastContainer, ToastContainerProps } from 'react-toastify'
 
-import 'react-toastify/dist/ReactToastify.css';
-import './toast.scss';
+import 'react-toastify/dist/ReactToastify.css'
+import './toast.scss'
 
 
 const Toast = (props: ToastContainerProps) => {

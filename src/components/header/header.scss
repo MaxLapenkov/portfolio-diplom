@@ -14,5 +14,79 @@
 
     &__school-name {
         margin-left: 8px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    &__routes {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__route {
+        padding: 8px 20px;
+
+        a {
+            padding: 2px 4px;
+            text-decoration: none;
+            color: $main-text;
+        }
+
+        &--active {
+            a {
+                color: $main-lite;
+                border-bottom: 4px solid #41A2D8;
+            }
+        }
+    }
+
+    &__pupil-info-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__pupil-button {
+        cursor: pointer;
+        outline: none;
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border: none;
+        border-radius: 50%;
+    }
+
+    &__pupil-info {
+        margin-left: 8px;
+        position: relative;
+    }
+
+    .modal-header {
+        display: none;
+        width: 200px;
+        height: 100px;
+        border-radius: 8px;
+        padding: 8px;
+        background-color: $main-background;
+        position: absolute;
+        left: -80px;
+        top: 60px;
+
+        &--open {
+            display: block;
+        }
+
+        &__close {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+        }
+
+        &__button {
+            width: 100%;
+            margin-top: 25px;
+        }
     }
 }
