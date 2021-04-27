@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import { UserDataResponse } from '../../api/types';
 
 import { useAppDispatch, useAppSelector, useLocalStorage } from '../../hooks';
-import { getUserDataAsync, setUserData,  userData } from '../../reducer/userData';
+import { getUserDataAsync, setUserData,  userData } from '../../reducers/userData';
 import { Auth } from '../../components';
 
 import './authPage.scss';

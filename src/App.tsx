@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Toast } from './components';
 
 
-import { AuthPage } from './pages';
+import { AuthPage, MainPage } from './pages';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={AuthPage} />
-          {/* <Route path="/about" component={About} />
-          <Route component={NotFound} /> */}
+          <Route path="/main" component={MainPage} />
+          {/* <Route component={NotFound} /> */}
         </Switch>
       </Router>
       <Toast className='toast'/>
