@@ -6,10 +6,10 @@ import { Link, useHistory } from 'react-router-dom'
 import { useAppSelector } from '../../hooks'
 import { userData } from '../../reducers/userData'
 import { UserDataResponse } from '../../api/types'
-import { getInitials, shortenName } from '../../utils/functions'
+import { getInitials, getPupilClass, shortenName } from '../../utils/functions'
+import ModalHeader from './modal'
 
 import './header.scss'
-import ModalHeader from './modal'
 
 const Header = () => {
     const currentUser = useAppSelector(userData)
@@ -28,10 +28,6 @@ const Header = () => {
 
     if(!currentUser.data) return null
     const { name, school, school_class } = currentUser.data as UserDataResponse
-
-    const getPupilClass = () => {
-        return `${school_class.parallel}-${school_class.letter} класс`
-    }
 
     const handleCloseExitModal = () => {
         setExitModalShown(false)
@@ -55,7 +51,7 @@ const Header = () => {
                 </button>
                 <div className="header__pupil-info">
                     <p className="header__pupil-name">{shortenName(name)}</p>
-                    <p className="header__pupil-class">{getPupilClass()}</p>
+                    <p className="header__pupil-class">{getPupilClass(school_class.parallel, school_class.letter)}</p>
                     <ModalHeader isOpen={isExitModalShown} onClose={handleCloseExitModal} />
                 </div>
             </div>

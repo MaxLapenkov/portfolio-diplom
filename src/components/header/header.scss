@@ -79,9 +79,13 @@
         }
 
         &__close {
+            cursor: pointer;
             position: absolute;
             top: 8px;
             right: 8px;
+            outline: none;
+            border: none;
+            background-color: transparent;
         }
 
         &__button {

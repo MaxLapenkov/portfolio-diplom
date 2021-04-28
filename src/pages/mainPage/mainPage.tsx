@@ -1,4 +1,5 @@
 import React from 'react';
+import { PersonInfo } from '../../components';
 
 import { useCheckAuth } from '../../hooks/checkAuth';
 
@@ -11,7 +12,12 @@ const MainPage = () => {
 
     return (
         <div className="main-page">
-            Hello
+            <div className="main-page__left-column">
+                <PersonInfo />
+            </div>
+            <div className="main-page__right-column">
+
+            </div>
         </div>
     )
 }

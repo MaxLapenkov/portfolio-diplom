@@ -1,0 +1,16 @@
+.main-page {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: linear-gradient(180deg, rgba(199, 235, 255, 0) 3.19%, rgba(196, 202, 206, 0) 37.56%, rgba(199, 234, 253, 0.56) 103.18%, rgba(52, 77, 90, 0) 103.19%, rgba(52, 77, 90, 0) 103.19%);
+
+    &__left-column {
+        width: 33%;
+    }
+
+    &__right-column {
+        width: 66%;
+    }
+}

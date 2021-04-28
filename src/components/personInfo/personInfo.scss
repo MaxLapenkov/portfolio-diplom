@@ -1,0 +1,39 @@
+.person-info {
+    width: 390px;
+    height: 500px;
+    padding: 25px;
+    background: linear-gradient(173.32deg, #DCEEF9 -2.66%, rgba(184, 226, 239, 0.993894) 12.25%, rgba(189, 231, 170, 0.911458) 36.63%, rgba(201, 255, 159, 0.707401) 60.34%, rgba(199, 235, 255, 0) 127.4%);
+    border-radius: 50px;
+
+    &__inner-container {
+        height: 100%;
+        width: 100%;
+        padding: 35px;
+        border-radius: 50px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__avatar {
+        width: 160px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    &__age {
+        color: rgba(0, 0, 0, 0.46);
+        margin-top: 2px;
+    }
+
+    &__school {
+        margin-top: 30px;
+    }
+}

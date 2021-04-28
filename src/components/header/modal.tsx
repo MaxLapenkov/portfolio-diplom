@@ -1,6 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 import { useAppDispatch } from '../../hooks'
+import { closeIcon } from '../../icons'
 import { clearUserData } from '../../reducers/userData'
 
 import './header.scss'
@@ -22,7 +23,9 @@ const ModalHeader = ({isOpen, onClose}: IModalHeaderProps) => {
 
     return (
         <div className={isOpen ? 'modal-header modal-header--open' : 'modal-header'}>
-            <button className="modal-header__close" onClick={onClose}/>
+            <button className="modal-header__close" onClick={onClose}>
+                <img src={closeIcon} alt="закрыть"/>
+            </button>
             <button className="modal-header__button" onClick={handleExitPotfolio}>Выйти</button>
         </div>
     ) 
