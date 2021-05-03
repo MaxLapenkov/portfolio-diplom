@@ -1,0 +1,23 @@
+@import '../../consts/variables.scss';
+
+.announcement {
+    margin-top: 20px;
+    text-rendering: auto;
+    height: 250px;
+
+    &__swiper-container {
+        padding: 20px;
+        background-color: white;
+        border: 1px solid $main-text;
+    }
+
+    .swiper-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: $main-text;
+    }
+}

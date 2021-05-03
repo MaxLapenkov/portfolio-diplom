@@ -1,5 +1,5 @@
 import React from 'react';
-import { PersonInfo } from '../../components';
+import { Announcement, Perfomance, PersonInfo } from '../../components';
 
 import { useCheckAuth } from '../../hooks/checkAuth';
 
@@ -16,7 +16,8 @@ const MainPage = () => {
                 <PersonInfo />
             </div>
             <div className="main-page__right-column">
-
+                <Perfomance />
+                <Announcement/>
             </div>
         </div>
     )

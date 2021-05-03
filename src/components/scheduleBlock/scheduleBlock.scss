@@ -1,0 +1,40 @@
+.schedule-block {
+    width: 20%;
+    padding: 16px;
+    background: linear-gradient(173.32deg, #D5FCB9 -2.66%, #BDF4C0 45.44%, rgba(146, 199, 151, 0.41) 113.18%, #B1E790 127.4%);
+    border-radius: 20px;
+    margin-right: 115px;
+    margin-bottom: 50px;
+
+    &__container {
+        padding: 20px 16px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__day {
+        margin-bottom: 20px;
+    }
+
+    &__content {
+        width: 100%;
+    }
+
+    &__item {
+        width: 100%;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.37);
+        padding: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    &__time {
+        margin-left: 10px;
+    }
+}

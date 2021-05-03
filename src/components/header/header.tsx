@@ -39,11 +39,11 @@ const Header = () => {
                 <h2 className="header__school-name">{school.name}</h2>
             </div>
             <ul className="header__routes">
-                <li className={getActiveRouteClass('/main')} onClick={() => setActiveRoute('/main')}><Link to="/main">Главная</Link></li>
-                <li className={getActiveRouteClass('/schedule')} onClick={() => setActiveRoute('/schedule')}><Link to="/schedule">Расписание</Link></li>
-                <li className={getActiveRouteClass('/olympiads')} onClick={() => setActiveRoute('/olympiads')}><Link to="/olympiads">Олимпиады</Link></li>
-                <li className={getActiveRouteClass('/achievements')} onClick={() => setActiveRoute('/achievements')}><Link to="/achievements">Достижения</Link></li>
-                <li className={getActiveRouteClass('/class')} onClick={() => setActiveRoute('/class')}><Link to="/class">Мой класс</Link></li>
+                <li className={getActiveRouteClass('/main')}><Link to="/main" onClick={() => setActiveRoute('/main')}>Главная</Link></li>
+                <li className={getActiveRouteClass('/schedule')}><Link to="/schedule" onClick={() => setActiveRoute('/schedule')}>Расписание</Link></li>
+                <li className={getActiveRouteClass('/olympiads')}><Link to="/olympiads" onClick={() => setActiveRoute('/olympiads')}>Олимпиады</Link></li>
+                <li className={getActiveRouteClass('/achievements')}><Link to="/achievements" onClick={() => setActiveRoute('/achievements')}>Достижения</Link></li>
+                <li className={getActiveRouteClass('/class')}><Link to="/class" onClick={() => setActiveRoute('/class')}>Мой класс</Link></li>
             </ul>
             <div className="header__pupil-info-container">
                 <button className="header__pupil-button" onClick={() => setExitModalShown((prevstate) => !prevstate)}>

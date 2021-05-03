@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import { Header, Toast } from './components';
 
 
-import { AuthPage, MainPage } from './pages';
+import { AuthPage, MainPage, SchedulePage, OlympiadPage, AchievementPage } from './pages';
 
 function App() {
   return (
@@ -13,6 +13,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={AuthPage} />
           <Route path="/main" component={MainPage} />
+          <Route path="/schedule" component={SchedulePage} />
+          <Route path="/olympiads" component={OlympiadPage} />
+          <Route path="/achievements" component={AchievementPage} />
           {/* <Route component={NotFound} /> */}
           <Route path="*">
             <Redirect to="/main" />

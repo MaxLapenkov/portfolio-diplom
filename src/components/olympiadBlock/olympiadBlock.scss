@@ -1,0 +1,38 @@
+.olympiad-block {
+    margin-right: 15%;
+    margin-bottom: 100px;
+    width: 35%;
+    background: linear-gradient(173.32deg, rgba(125, 159, 224, 0.51) -2.66%, rgba(74, 181, 241, 0.17) -2.64%, rgba(96, 166, 196, 0.14) 58.99%, rgba(134, 202, 252, 0.54) 127.4%);
+    border-radius: 20px;
+    padding: 20px;
+
+    &__container {
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__result {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 16px;
+    }
+
+    &__date {
+        margin-top: auto;
+        color: rgba(0, 0, 0, 0.53);
+    }
+
+    &__winner {
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        top: 0;
+        right: 0;
+    }
+}

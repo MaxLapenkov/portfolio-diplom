@@ -1,0 +1,15 @@
+.perfomance-block {
+    width: 30%;
+    padding: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #828282;
+
+    &__diagram {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+}
