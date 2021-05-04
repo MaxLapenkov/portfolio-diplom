@@ -12,7 +12,7 @@ export function useCheckAuth() {
 
     useEffect(() => {
         if (!currentUser.data && !localUserData) {
-            history.replace('/')
+            history.replace('/portfolio-diplom')
         } else if (localUserData && !currentUser.data) {
             dispatch(setUserData(localUserData))
         }

@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={AuthPage} />
+          <Route exact path="/portfolio-diplom" component={AuthPage} />
           <Route path="/main" component={MainPage} />
           <Route path="/schedule" component={SchedulePage} />
           <Route path="/olympiads" component={OlympiadPage} />
