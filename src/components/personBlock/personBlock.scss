@@ -1,0 +1,44 @@
+.person-block {
+    width: 206px;
+    height: 330px;
+    background: linear-gradient(173.32deg, rgba(39, 112, 38, 0) -2.66%, rgba(84, 234, 99, 0.15) 4.8%, rgba(84, 223, 81, 0.32) 127.4%);
+    border-radius: 20px;
+    padding: 12px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+
+    &--teacher {
+        background: linear-gradient(173.32deg, #DCEEF9 -2.66%, rgba(184, 226, 239, 0.993894) 12.25%, rgba(127, 191, 237, 0) 117.92%, rgba(199, 235, 255, 0) 127.4%);
+    }
+
+    &__container {
+        height: 100%;
+        background-color: white;
+        padding: 12px 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__avatar {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 29px;
+    }
+
+    &__phone {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    &__experience {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(0, 0, 0, 0.69);
+    }
+
+    &__name {
+        text-align: center;
+        margin-bottom: 26px;
+    }
+}

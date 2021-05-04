@@ -7,6 +7,8 @@ import Announcement from './announcement/announcement'
 import Schedule from './schedule/schedule'
 import Olympiad from './olympiad/olympiad'
 import Achievement from './achievement/achievement'
+import Teacher from './teacher/teacher'
+import Classmate from './classmate/classmate'
 
 export {
     Header,
@@ -17,5 +19,7 @@ export {
     Announcement,
     Schedule,
     Olympiad,
-    Achievement
+    Achievement,
+    Teacher,
+    Classmate
 }

@@ -25,7 +25,7 @@ const Olympiad = () => {
             <h2 className="olympiad__header">Олимпиады</h2>
             <div className="olympiad__container">
                 {pupilOlympiads.data && pupilOlympiads.data.map((olympiad) => (
-                    <OlympiadBlock blockData={olympiad}/>
+                    <OlympiadBlock blockData={olympiad} key={olympiad.id}/>
                 ))}
             </div>
         </section>

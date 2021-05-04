@@ -79,3 +79,28 @@ export interface PupilAchievementResponse {
     date: string,
     type: string,
 }
+
+export interface TeacherRequest {
+    classId: number
+}
+
+export interface TeacherResponse {
+    id: number,
+    name: string,
+    phone: string,
+    gender: string,
+    education: string,
+    experience: number
+}
+
+export interface ClassmatesRequest {
+    classId: number
+}
+
+export interface ClassmatesResponse {
+    id: number,
+    name: string,
+    phone: string,
+    gender: string,
+    experience: number
+}

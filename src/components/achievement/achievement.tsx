@@ -25,7 +25,7 @@ const Achievement = () => {
             <h2 className="achievement__header">Достижения</h2>
             <div className="achievement__container">
                 {pupilAchievements.data && pupilAchievements.data.map((achievement) => (
-                    <AchievementBlock blockData={achievement}/>
+                    <AchievementBlock blockData={achievement} key={achievement.id}/>
                 ))}
             </div>
         </section>

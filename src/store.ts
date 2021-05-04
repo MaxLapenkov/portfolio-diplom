@@ -6,6 +6,8 @@ import schoolAnnouncementReducer from './reducers/announcement'
 import classScheduleReducer from './reducers/schedule'
 import pupilOlympiadReducer from './reducers/olympiad'
 import pupilAchievementReducer from './reducers/achievement'
+import teacherReducer from './reducers/teacher'
+import classmatesReducer from './reducers/classmates'
 
 export const store = configureStore({
   reducer: {
@@ -15,7 +17,9 @@ export const store = configureStore({
     announcement: schoolAnnouncementReducer,
     schedule: classScheduleReducer,
     olympiad: pupilOlympiadReducer,
-    achievement: pupilAchievementReducer
+    achievement: pupilAchievementReducer,
+    teacher: teacherReducer,
+    classmates: classmatesReducer
   },
 });
 
