@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-diplom/static/css/main.94bd2827.chunk.css",
+    "main.js": "/portfolio-diplom/static/js/main.349fe7f0.chunk.js",
+    "main.js.map": "/portfolio-diplom/static/js/main.349fe7f0.chunk.js.map",
+    "runtime-main.js": "/portfolio-diplom/static/js/runtime-main.8b43e7ff.js",
+    "runtime-main.js.map": "/portfolio-diplom/static/js/runtime-main.8b43e7ff.js.map",
+    "static/css/2.9d5c077b.chunk.css": "/portfolio-diplom/static/css/2.9d5c077b.chunk.css",
+    "static/js/2.388c7853.chunk.js": "/portfolio-diplom/static/js/2.388c7853.chunk.js",
+    "static/js/2.388c7853.chunk.js.map": "/portfolio-diplom/static/js/2.388c7853.chunk.js.map",
+    "index.html": "/portfolio-diplom/index.html",
+    "static/css/2.9d5c077b.chunk.css.map": "/portfolio-diplom/static/css/2.9d5c077b.chunk.css.map",
+    "static/css/main.94bd2827.chunk.css.map": "/portfolio-diplom/static/css/main.94bd2827.chunk.css.map",
+    "static/js/2.388c7853.chunk.js.LICENSE.txt": "/portfolio-diplom/static/js/2.388c7853.chunk.js.LICENSE.txt",
+    "static/media/avatar-boy.0233785c.jpg": "/portfolio-diplom/static/media/avatar-boy.0233785c.jpg",
+    "static/media/book.68b328fa.svg": "/portfolio-diplom/static/media/book.68b328fa.svg",
+    "static/media/cup.e432c9b1.svg": "/portfolio-diplom/static/media/cup.e432c9b1.svg",
+    "static/media/hands.d961e38a.svg": "/portfolio-diplom/static/media/hands.d961e38a.svg",
+    "static/media/star.721fceae.svg": "/portfolio-diplom/static/media/star.721fceae.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b43e7ff.js",
+    "static/css/2.9d5c077b.chunk.css",
+    "static/js/2.388c7853.chunk.js",
+    "static/css/main.94bd2827.chunk.css",
+    "static/js/main.349fe7f0.chunk.js"
+  ]
+}
